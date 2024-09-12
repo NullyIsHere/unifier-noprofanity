@@ -1,0 +1,16 @@
+{
+  "id": "noprofanity",
+  "name": "NoProfanity",
+  "description": "A plugin to detect and handle profanity in messages. By ItsAsheer",
+  "version": "v1.0.0",
+  "release": 0,
+  "minimum": 49,
+  "services": ["content_protection"],
+  "requirements": ["aiohttp"],
+  "shutdown": false,
+  "modules": [
+    "noprofanity.py"
+  ],
+  "utils": [
+  ]
+}
